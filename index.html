@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="page">
+        <div class="content">
+            <div class="content__head">
+                <img src="img/Logo.svg" alt="logo" class="content__logo">
+                <h1 class="content__heading">
+                    <span>Sign Up</span> and find the best place to rest while traveling
+                </h1>
+            </div>
+            <form class="content__form register-form">
+                <div class="register-form__group">
+                    <input class="register-form__input register-form__input_first-name" type="text" placeholder=" ">
+                    <label class="register-form__label">First Name</label>
+                </div>
+                <div class="register-form__group">
+                    <input class="register-form__input register-form__input_last-name" type="text" placeholder=" ">
+                    <label class="register-form__label">Second Name</label>
+                </div>
+                <div class="register-form__group register-form__group_location">
+                    <input class="register-form__input register-form__input_location" type="text" placeholder=" ">
+                    <label class="register-form__label register-form__label_location">Country</label>
+                    <span class="register-form__sign_location"></span>
+                    <div class="register-form__input_location-dropdown" data-text="No results">
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country country_selected">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                        <p data-country="UA" data-phone-code="+380" class="country">lorem</p>
+                    </div>
+                </div>
+                <div class="register-form__group">
+                    <input class="register-form__input register-form__input_phone" type="tel" placeholder=" ">
+                    <label class="register-form__label">Phone</label>
+                </div>
+                <div class="register-form__group">
+                    <input class="register-form__input register-form__input_password" type="password" placeholder=" ">
+                    <label class="register-form__label">Password</label>
+                </div>
+                <div class="register-form__group">
+                    <input class="register-form__input register-form__input_password-confirm" type="password" placeholder=" ">
+                    <label class="register-form__label">Confirm password</label>
+                </div>
+                <div class="register-form__group">
+                    <input class="register-form__input register-form__input_email" type="email" placeholder=" ">
+                    <label class="register-form__label">Email</label>
+                </div>
+                <div class="register-form__group">
+                    <input class="register-form__input_checkbox" id="checkbox" type="checkbox">
+                    <label class="register-form__label_checkbox" for="checkbox"></label>
+                    <span class="register-form__agree">I agree to the <a href="">Terms & Conditions</a></span>
+                </div>
+                <div class="register-form__group register-form__group_btn">
+                    <button type="submit" class="register-form__btn">Sign Up</button>
+                </div>
+            </form>
+        </div>
+        <div class="page__login-info">
+            If you have an account, <a href="">Log In</a>
+        </div>
+    </div>
+</div>
+<script defer src="script/index.js"></script>
+</body>
+</html>
